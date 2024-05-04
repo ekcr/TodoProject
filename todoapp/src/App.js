@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header';
 import CreateTasks from './components/CreateTasks';
 import Tasks from './components/Tasks';
+import Footer from './components/Footer';
 import { useState } from 'react';
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           })}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
