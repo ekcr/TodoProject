@@ -46,9 +46,7 @@ function CreateTasks(props) {
                 name="content"
                 value={task.content}
                 onChange={onChangeTask}
-  
             />
-
             <button className="btn btn-primary mb-3" onClick={submitTask}>Create</button>
         </form>
     </div> );
